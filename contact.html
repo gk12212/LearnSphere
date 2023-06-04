@@ -1,0 +1,205 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.rtl.min.css"
+    integrity="sha384-PJsj/BTMqILvmcej7ulplguok8ag4xFTPryRq8xevL7eBYSmpXKcbNVuy+P0RMgq" crossorigin="anonymous">
+
+<head>
+
+    <title>Learn Sphere coder</title>
+</head>
+
+<body>
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary navbar bg-dark border-bottom border-bottom-dark"
+        data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">i coder</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="Bootstrap.html">Home</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link " href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="contact.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Topics
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Technology</a></li>
+                            <li><a class="dropdown-item" href="#">Web developement</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Support</a></li>
+                            <li><a class="dropdown-item" href="#">write to us</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    </nav>
+
+    <div class="container my-4">
+        <div class="row justify-content-center">
+        <div class="col-md-6 text-center mb-5">
+        <h2 class="heading-section">Contact Us</h2>
+        </div>
+        </div>
+        <div class="row justify-content-center">
+        <div class="col-md-12">
+        <div class="wrapper">
+        <div class="row mb-5">
+        <div class="col-md-3">
+        <div class="dbox w-100 text-center">
+        <div class="icon d-flex align-items-center justify-content-center">
+        <span class="fa fa-map-marker"></span>
+        </div>
+        <div class="text">
+        <p><span>Address:</span> Learn Sphere 2nd cross whiteField Bengaluru,India</p>
+        </div>
+        </div>
+        </div>
+        <div class="col-md-3">
+        <div class="dbox w-100 text-center">
+        <div class="icon d-flex align-items-center justify-content-center">
+        <span class="fa fa-phone"></span>
+        </div>
+        <div class="text">
+        <p><span>Phone:</span> <a href="tel://1234567920">+ 91 99449*****</a></p>
+        </div>
+        </div>
+        </div>
+        <div class="col-md-3">
+        <div class="dbox w-100 text-center">
+        <div class="icon d-flex align-items-center justify-content-center">
+        <span class="fa fa-paper-plane"></span>
+        </div>
+        <div class="text">
+        <p><span>Email:</span> <a href="mailto:info@yoursite.com">LearnSphere@gmail.com</a></p>
+        </div>
+        </div>
+        </div>
+        <div class="col-md-3">
+        <div class="dbox w-100 text-center">
+        <div class="icon d-flex align-items-center justify-content-center">
+        <span class="fa fa-globe"></span>
+        </div>
+        <div class="text">
+        <p><span>Website</span> <a href="#">www.learnsphere.org</a></p>
+        </div>
+        </div>
+        </div>
+        </div>
+        <div class="row no-gutters">
+        <div class="col-md-7">
+        <div class="contact-wrap w-100 p-md-5 p-4">
+        <h3 class="mb-4">Contact Us</h3>
+        <div id="form-message-warning" class="mb-4"></div>
+        <div id="form-message-success" class="mb-4">
+        Your message was sent, thank you!
+        </div>
+        <form method="POST" id="contactForm" name="contactForm" class="contactForm" novalidate="novalidate">
+        <div class="row">
+        <div class="col-md-6">
+        <div class="form-group">
+        <label class="label" for="name">Full Name</label>
+        <input type="text" class="form-control" name="name" id="name" placeholder="Name">
+        </div>
+        </div>
+        <div class="col-md-6">
+        <div class="form-group">
+        <label class="label" for="email">Email Address</label>
+        <input type="email" class="form-control" name="email" id="email" placeholder="Email">
+        </div>
+        </div>
+        <div class="col-md-12">
+        <div class="form-group">
+        <label class="label" for="subject">Subject</label>
+        <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject">
+        </div>
+        </div>
+        <div class="col-md-12">
+        <div class="form-group">
+        <label class="label" for="#">Message</label>
+        <textarea name="message" class="form-control" id="message" cols="30" rows="4" placeholder="Message"></textarea>
+        </div>
+        </div>
+   
+        <div class="col-md-12">
+        <div class="form-group">
+        <input type="submit" value="Send Message" class="btn btn-primary">
+        <div class="submitting"></div>
+        </div>
+        </div>
+        </div>
+        </form>
+        </div>
+        </div>
+        <div class="col-md-5 d-flex align-items-stretch">
+        <div class="info-wrap w-100 p-5 img" style="background-image: url(miles-burke-idhx-MOCDSk-unsplash.jpg);">
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+
+
+
+    <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          
+        </ul>
+        <p class="text-center text-body-secondary">© 2013 Company,Learn Sphere Inc</p>
+      </footer>
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+
+
+
+</body>
+
+</html>
